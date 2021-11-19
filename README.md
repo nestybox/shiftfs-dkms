@@ -1,5 +1,5 @@
 
-# shiftfs-dkms version for Kernel 5.10.x
+# shiftfs-dkms version for Kernel 5.11.x
 
 Content:
 --------
@@ -19,7 +19,7 @@ Content:
 
 **Note:** 
 
-- This version is compatible with Linux Kernel versions 5.10.x and 5.8.x
+- This version is compatible with Linux Kernel versions 5.11.x 
 - This version is not tested by me anymore
 
 The **shiftfs.c** file is from the Ubuntu Hirsute kernel repo, see: [git link](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/hirsute/tree/fs/shiftfs.c)
@@ -34,11 +34,11 @@ See: [README.md in master branch](https://github.com/toby63/shiftfs-dkms#limitat
 
 | Last Updated: |
 | --- |
-| July 2021 |
+| Nov 2021 |
 
 | Version: | Status: |
 | --- | --- | 
-| k510 | working | 
+| k511 | working | 
 
 If you want to post a testreport, take a look at: [Testreports Issue on Github](https://github.com/toby63/shiftfs-dkms/issues/3).
 
@@ -59,7 +59,7 @@ If you want to post a testreport, take a look at: [Testreports Issue on Github](
   
  With git:
 
-      # git clone -b k5.10 https://github.com/toby63/shiftfs-dkms.git shiftfs-k510
+      # git clone -b k5.11 https://github.com/toby63/shiftfs-dkms.git shiftfs-k511
 
 
 #### 2. (Optional, but recommended) Update shiftfs.c:
