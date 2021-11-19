@@ -22,7 +22,7 @@ Content:
 - This version is compatible with Linux Kernel versions 5.10.x and 5.8.x
 - This version is not tested by me anymore
 
-The **shiftfs.c** file is from the Ubuntu Groovy kernel repo, see: [git link](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/groovy/tree/fs/shiftfs.c)
+The **shiftfs.c** file is from the Ubuntu Hirsute kernel repo, see: [git link](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/hirsute/tree/fs/shiftfs.c)
 
 For an overview and more information see [README.md in master branch](https://github.com/toby63/shiftfs-dkms/blob/master/README.md).
 
@@ -65,7 +65,7 @@ If you want to post a testreport, take a look at: [Testreports Issue on Github](
 #### 2. (Optional, but recommended) Update shiftfs.c:
 
  The shiftfs.c included might be outdated, thus the update-script.   
- You can check the [upstream log](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/groovy/log/fs/shiftfs.c) whether an update is available.
+ You can check the [upstream log](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/hirsute/log/fs/shiftfs.c) whether an update is available.
 
  Run as user:
 
@@ -90,7 +90,7 @@ If you want to post a testreport, take a look at: [Testreports Issue on Github](
        
 ### Upgrade:
 
-**Note:** Check for updates regularly either in the [upstream log](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/groovy/log/fs/shiftfs.c) or in the [Update log issue](https://github.com/toby63/shiftfs-dkms/issues/12) of this repo.
+**Note:** Check for updates regularly either in the [upstream log](https://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/hirsute/log/fs/shiftfs.c) or in the [Update log issue](https://github.com/toby63/shiftfs-dkms/issues/12) of this repo.
  
  * Uninstall/Remove the old version:
 
